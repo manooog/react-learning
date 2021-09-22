@@ -1,0 +1,26 @@
+{
+  "name": "@mi/react-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "jsx-babel": "babel -w --config-file ./jsx/babel/babel.config.json  jsx/babel -d lib",
+    "webpack": "webpack s -c webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-react": "^7.14.5",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.0"
+  },
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.52.0"
+  }
+}
